@@ -1,0 +1,4 @@
+dependencies:
+  - cellis.php
+  - cellis.nginx
+  - cellis.mysql

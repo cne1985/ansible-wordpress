@@ -1,0 +1,14 @@
+---
+- hosts: all
+  become: true
+  roles:
+    - role: cellis.wordpress
+      database_name: wp-database
+      database_user: celliswp
+      database_password: Password1
+      admin_username: craig
+      admin_password: Password1
+      wp_domain: book.example.com
+      initial_post_title: Hello There!
+      initial_post_content:
+        This is example content, change me.
